@@ -1,0 +1,1867 @@
+about.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about us</title>
+    <link rel="icon" href="img/img-home/images.png" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link href="/botstrapMinCss/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/component/about/about.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  </head>
+  <body>
+    <!-- Site loader-->
+    <div class="loader">
+      <span class="loader2"></span>
+    </div>
+    <!-- navbar -->
+    <div id="navbar"></div>
+    <!-- modal klick in icon sop -->
+    <div class="modal-sap-content"></div>
+    <!-- about -->
+    <section class="contener_textAbout">
+      <h6><strong> Store </strong> internet  </h6>
+      <p>
+        A complete and beautiful online store for buying all kinds of clothes
+        Comfort and winter clothes, summer clothes and four-season clothes. Women's and men's
+        foreign It is here to give you a good feeling of wearing. Choose clothes from
+        Between a world of new and colorful clothes with the best quality. From
+        The first and most famous clothing store websites in Ahvaz and of course the country
+        Is. To sell all kinds of women's and girls', men's and children's clothes
+        Ganeh is active in selling quality clothes made of cotton and yarn and of course
+        Selling cheap clothes online.
+      </p>
+      <hr>
+      <h6>Face-to-face sales and online shopping for clothes</h6>
+      <p>
+        In the online store, the products are divided into two sections, women's and men's
+        It is possible that in the women's clothes section, customers can buy women's clothes,
+        Buying cotton t-shirts, buying coats, buying cotton clothes, blouses, tunics
+        And... and in the men's section, to buy men's t-shirts, men's pants and warm clothes
+        Pay in autumn and winter. Experience buying cheap economic clothes at the same time
+        Experience high quality in the online store with just a few clicks
+        do. If you are not satisfied with the item purchased, you can return it within 72 hours
+        please return
+      </p>
+      <p>The main goal of the online store is to sell cheap and excellent quality clothes
+        Ahvaz and sending and selling online to other parts of the country. Selling cheap clothes
+        Including all kinds of women's and men's clothing, such as buying coats, buying women's shirts, shopping
+        Women's jeans, buy women's t-shirts, buy women's socks and any cover you can
+        considered them as clothes, Whether buying men's clothing (online or
+        Internet) and online shopping for women's clothing, shopping for clothes is always one of the entertainments
+        Exciting and loved for every person, especially women and girls who are relative
+        To men, they shop obsessively and spend more time. In buying clothes
+        On the Internet, it may not be possible to check the clothes in a classic way and make a decision about this
+        Buying women's and men's clothes online is another possibility
+        There are no buyers! It depends on the capabilities of the websites up to the customer
+        can easily make the best choice. Website with
+        Introducing products, complete and accurate details for all your clothes, in the section
+        Detailed descriptions and size guides for customers to purchase the product
+        It guides the target. Constant companions can be prepared
+        All the winter, summer, spring and autumn clothes you want
+        Buy men's clothes, women's clothes.Variety of clothes on the web
+        The website of types of paper (women's paper in Gorgan), types of pants, types of t-shirts
+        Buying cotton t-shirts and... all kinds of women's blouses and shirts, all kinds of socks
+        Women's (women's short stockings, girls' fancy stockings, long stockings
+        Women's, women's slippers, etc.) and men's, etc., in different designs and colors
+        You can buy it on the website at cheap and completely affordable prices
+        Of course, buy excellent and first-class quality.
+      </p>
+      <hr>
+      <h6>Important tips for buying clothes</h6>
+      <p>
+        Before finalizing your purchase in the online store, first of all, be sure
+        Pay attention to the sizing of your clothes and clothes and measure them
+        Match your size with the size of the clothes. In the next step, color the item
+        Choose your opinion carefully. In clothes whose color can be separated
+        not, it is coded, and in order to choose, be sure to check the code of the dress you want
+        Select.
+      </p>
+    </section>
+
+    <footer></footer>
+    <script type="module" src="/js/app.js"></script>
+    <script src="/bootstrapMinJs/bootstrap.min.js"></script>
+    <script src="/component/about/about.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+cart.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+    <link rel="icon" href="img/img-home/images.png" />
+    <link rel="stylesheet" href="/component/cart/cart.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link href="/botstrapMinCss/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  </head>
+  <body>
+           <!-- Site loader-->
+           <div class="loader">
+            <span class="loader2"></span>    
+          </div>
+    <div id="navbar"></div>
+    <div class="content">
+      <div class="text-center">
+        <div class="shop-items" id="hoverme"></div>
+        <div class="apendallinformationproductlg d-lg-none d-sm-block">
+          <!-- Display the entire shopping cart information in a large size-->
+        </div>
+      </div>
+
+      <div class="d-none d-lg-block">
+        <div class="row text-center" id="cartproduct">
+          <!-- Show each product in the shopping cart-->
+          <div class="col-9">
+            <div id="apendpruducttocart"></div>
+          </div>
+          <!-- Display the entire shopping cart information in small size-->
+          <div class="col-3 text-start" id="borderproductcart2">
+            <div class="apendallinformationproduct"></div>
+          </div>
+        </div>
+      </div>
+
+     <!-- Show the photo of the empty basket-->
+        <div id="imgCartMPT">
+          <img  class="imgcartmpt" src="img/img-home/empty-cart.svg" >
+          <p class="cartinmpt">Your shopping cart is empty !!</p>
+          <p>You can choose the product you want from the products section.</p>
+        </div>
+
+
+      <!-- modal klick in icon sop -->
+      <div class="modal-sap-content">
+      </div>
+
+
+    </div>
+    <footer></footer>
+    <script src="/bootstrapMinJs/bootstrap.min.js"></script>
+    <script type="module" src="/js/app.js"></script>
+    <script type="module" src="/component/cart/cart.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+contact us .html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="icon" href="img/img-home/images.png" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link href="/botstrapMinCss/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/component/contactUs/contactUs.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  </head>
+  <body>
+    <!--Site loader-->
+    <div class="loader">
+      <span class="loader2"></span>
+    </div>
+    <!-- navbar -->
+    <div id="navbar"></div>
+    <!-- modal klick in icon sop -->
+    <div class="modal-sap-content"></div>
+    <!-- contact us -->
+    <div class="row" id="contactus">
+      <div class="col-6">
+        <div>
+          <p>address : ----------------------</p>
+        </div>
+        <div>
+          <p>phone number : +129487346</p>
+          <p>We are at your service seven days a week</p>
+        </div>
+        <div>
+          <p>email: -------@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="form">
+          <div>
+            <h6 >Please enter your information</h6>
+          </div>
+          <div class="input_contener">
+            <input type="text" placeholder="first name and last name" class="input_form" id="input_name"/>
+            <p class="err_name"></p>
+          </div>
+          <div class="input_contener">
+            <input type="text" placeholder="Phone" class="input_form" id="input_tlefon"/>
+            <p class="err_tlefon"></p>
+          </div>
+          <div class="input_contener">
+            <input type="email" placeholder="email" class="input_form" id="email"/>
+            <p class="err"></p>
+          </div>
+          <div class="input_contener">
+            <textarea id="w3review" name="w3review" rows="4" cols="50" id="input_Description" placeholder="Description"></textarea>
+            <p class="err_textarea"></p>
+          </div>
+          <div class="footer_button">
+            <button>submit information</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="text_contactus">
+      <p>
+        For easy online shopping, this store is the first specialized fashion site
+        The most diverse online shopping site for clothes and goods
+        The quality is provided with a price guarantee and the possibility of returning the goods.
+      </p>
+      <p>
+        Our site aims to improve the customer shopping experience in an affordable and tailored way
+        You and the latest models on the market will increase the variety of products. from
+        One of the advantages of our store is the possibility of buying cheap in auctions and seasonal discounts
+        Product price list, on-site payment, providing secure portals, health assurance, etc.
+        Product quality, quick tracking of orders, return of goods.
+      </p>
+    </div>
+
+    <footer></footer>
+    <script type="module" src="/js/app.js"></script>
+    <script src="/bootstrapMinJs/bootstrap.min.js"></script>
+    <script src="/component/contactUs/contactUs.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+Index.HTML
+
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="og:title" milk="og:title" content="Online shop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Online shop" />
+    <title>online shop</title>
+    <link rel="icon" href="img/img-home/images.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="botstrapMinCss/bootstrap.rtl.min.css" rel="stylesheet" />
+    <script src="bootstrapMinJs/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="/component/slider product coats/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/component/slider product coats/sliderManto.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/component/slider-brand/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/component/slider-brand/style.css" />
+    <link
+      rel="stylesheet"
+      href="/component/slider new products/slidernewproducts.css"
+    />
+  </head>
+  <body>
+    <!--Site loader-->
+    <div class="loader">
+      <span class="loader2"></span>
+    </div>
+
+    <nav id="navbar"></nav>
+
+    <div class="content">
+      <!-- slider all product -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              id="img"
+              src="img/img-home/a9d3cb7e9b203c500c46fc8743ce6c0608a376e6_1713603102.jpg"
+              class="d-block w-100"
+              alt="img"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Women's Coats</h5>
+              <p>The best coats for women</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              id="img"
+              src="img/img-home/b0af22058dcb6809e33ed79950aeeeec1e5abecc_1697552984.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>mens shoes</h5>
+              <p>The best men's shoes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              id="img"
+              src="img/img-home/d164a65b57ecd0d5f6759054beb6bd024cbe9b18_1697552749.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mens shirts</h5>
+              <p>The best shirts for men</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- tabligat sop -->
+      <div class="sliderAllProduct">
+        <div class="wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <ul class="carousel-sliderAllproduct">
+            <li class="cards">
+              <div class="img">
+                <a href="/store.html"
+                  ><img
+                    class="imgsm"
+                    name="E"
+                    src="img/img-home/IMG_20221102_104341_428-scaled.jpg"
+                    alt="img"
+                    draggable="false"
+                /></a>
+              </div>
+              <p class="nameIsProduct">Mens Watches</p>
+            </li>
+            <li class="cards">
+              <div class="img">
+                <a href="/store.html"
+                  ><img
+                    class="imgsm"
+                    name="D"
+                    src="img/img-home/men-readymade-shirts-3-250x250.webp"
+                    alt="img"
+                    draggable="false"
+                /></a>
+              </div>
+              <p class="nameIsProduct">Men's Shirts</p>
+            </li>
+
+            <li class="cards">
+              <div class="img">
+                <a href="/store.html"
+                  ><img
+                    class="imgsm"
+                    name="C"
+                    src="img/img-home/b8b369c4946aeb9195fd0a8ef31e1109992c017c (1).jpg"
+                    alt="img"
+                    draggable="false"
+                /></a>
+              </div>
+              <p class="nameIsProduct">Women's Coats</p>
+            </li>
+            <li class="cards">
+              <div class="img">
+                <a href="/store.html"
+                  ><img
+                    class="imgsm"
+                    name="H"
+                    src="img/img-home/mens-t-shirt.jpg"
+                    alt="img"
+                    draggable="false"
+                /></a>
+              </div>
+              <p class="nameIsProduct">T-Shirt</p>
+            </li>
+            <li class="cards">
+              <div class="img">
+                <a href="/store.html"
+                  ><img
+                    class="imgsm"
+                    name="G"
+                    src="img/img-home/v2a4355-834967_m.jpg"
+                    alt="img"
+                    draggable="false"
+                /></a>
+              </div>
+              <p class="nameIsProduct">pants</p>
+            </li>
+            <li class="cards">
+              <div class="img">
+                <a href="/store.html"
+                  ><img
+                    class="imgsm"
+                    name="F"
+                    src="img/img-home/salrosare.jpg"
+                    alt="img"
+                    draggable="false"
+                /></a>
+              </div>
+              <p class="nameIsProduct">Scarf</p>
+            </li>
+
+            <li class="cards">
+              <div class="img">
+                <a href="/store.html"
+                  ><img
+                    class="imgsm"
+                    name="A"
+                    src="img/img-home/1635768862other_file2_0-large.jpg"
+                    alt="img"
+                    draggable="false"
+                /></a>
+              </div>
+              <p class="nameIsProduct">Men ankle boots</p>
+            </li>
+            <li class="cards">
+              <div class="img">
+                <a href="/store.html"
+                  ><img
+                    class="imgsm"
+                    name="B"
+                    src="img/img-home/bee43783-f2af-4a9b-94ed-5b870d84c1a8.webp"
+                    alt="img"
+                    draggable="false"
+                /></a>
+              </div>
+              <p class="nameIsProduct">Women's shoes</p>
+            </li>
+          </ul>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+      <!-- box for - tow  -->
+      <section class="contener-box-for">
+        <div id="box-for-product">
+          <img
+            class="box-margin"
+            id="box-style1"
+            src="img/img-home/9d3337e292fa1fa903de68cd7b5eba61de14b532_1713603787.jpg"
+          />
+          <img
+            class="box-margin"
+            id="box-style2"
+            src="img/img-home/1573c10d2feef51495d49668b9d1e465c58757a8_1713603679.jpg"
+          />
+        </div>
+      </section>
+      <!-- slider product new manto -->
+      <div class="productnew swiper">
+        <div>
+          <a href="/store.html"
+            ><button class="newmanto btn ms-5">
+              Check out our latest coats for women
+            </button></a
+          >
+        </div>
+        <div class="slide-container">
+          <div class="card-wrapper swiper-wrapper"></div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- modal klick in icon sop -->
+      <div class="modal-sap-content"></div>
+      <!-- باکس معرفی محصول -->
+      <div class="card-list">
+        <a class="card-item hover1">
+          <img
+            class="hiverme"
+            src="img/img-home/789738_139.jpg"
+            alt="Card Image"
+          />
+          <span class="text_pro">Women's ankle boots</span>
+          <h3>The best ankle boots of the winter year.</h3>
+          <div class="arrow">
+            <i class="fas fa-arrow-right card-icon"></i>
+          </div>
+        </a>
+        <a class="card-item hover2">
+          <img
+            class="hiverme"
+            src="img/img-home/watches.jpg"
+            alt="Card Image"
+          />
+          <span class="text_pro2">men's watch</span>
+          <h3>Any brand you want is here.</h3>
+          <div class="arrow">
+            <i class="fas fa-arrow-right card-icon"></i>
+          </div>
+        </a>
+        <a class="card-item hover3">
+          <img
+            class="hiverme"
+            src="img/img-home/Untitled-1.jpg"
+            alt="Card Image"
+          />
+          <span class="text_pro3">Pants</span>
+          <h3>The best fabric pants for men.</h3>
+          <div class="arrow">
+            <i class="fas fa-arrow-right card-icon"></i>
+          </div>
+        </a>
+      </div>
+      <!-- slider new products -->
+      <p class="textnewmosolat">Best-selling products</p>
+      <div class="wrapper_new_products">
+        <i id="lefts" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel_new_products"></ul>
+        <i id="rights" class="fa-solid fa-angle-right"></i>
+      </div>
+      <!--Slider brands-->
+      <div class="slide-container-brand swiper">
+        <div class="slide-content-brand">
+          <p class="name-brand">Top brands</p>
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img
+                    src="img/img-home/-2147483648_-210635.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img
+                    src="img/img-home/-2147483648_-210633.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img src="img/img-home/2407.png" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img
+                    src="img/img-home/100010336.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img src="img/img-home/4637.png" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img
+                    src="img/img-home/23116f6c4328be403b65fac52c7f77c394bd134b_1620821902.png"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img
+                    src="img/img-home/3327dfc0abbfb5b9065d75b9f51380434e377380_1658233238.png"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img
+                    src="img/img-home/100013320.png"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img
+                    src="img/img-home/-2147483648_-210637.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+            <div class="card-brand swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img
+                    src="img/img-home/efff4d6c246ec731789110e3a6e21b35984f23ec_1620821665.png"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+              </div>
+
+              <div class="card-content"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next-brand swiper-navBtn"></div>
+        <div class="swiper-button-prev-brand swiper-navBtn"></div>
+        <div id="swiper-pagination-brand"></div>
+      </div>
+
+      <!--  Your registration was successful -->
+      <div class="modal-login fixed-top">
+        <h6 class="modal-title">Your registration was successful</h6>
+        <svg
+          class="checkmark"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 52 52"
+        >
+          <circle
+            class="checkmark__circle"
+            cx="26"
+            cy="26"
+            r="25"
+            fill="none"
+          />
+          <path
+            class="checkmark__check"
+            fill="none"
+            d="M14.1 27.2l7.1 7.2 16.7-16.8"
+          />
+        </svg>
+      </div>
+      <!--You are logged in to your account-->
+      <div class="modal-login2 fixed-top">
+        <h6 class="modal-title2">You are logged in to your account</h6>
+        <svg
+          class="checkmark"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 52 52"
+        >
+          <circle
+            class="checkmark__circle"
+            cx="26"
+            cy="26"
+            r="25"
+            fill="none"
+          />
+          <path
+            class="checkmark__check"
+            fill="none"
+            d="M14.1 27.2l7.1 7.2 16.7-16.8"
+          />
+        </svg>
+      </div>
+    <!-- Successfully added to the store-->
+      <div class="modal-login3 fixed-top">
+        <h6 class="modal-title3">Successfully added to the store</h6>
+        <svg
+          class="checkmark"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 52 52"
+        >
+          <circle
+            class="checkmark__circle"
+            cx="26"
+            cy="26"
+            r="25"
+            fill="none"
+          />
+          <path
+            class="checkmark__check"
+            fill="none"
+            d="M14.1 27.2l7.1 7.2 16.7-16.8"
+          />
+        </svg>
+      </div>
+    </div>
+    <footer></footer>
+    <script type="module" src="/js/app.js"></script>
+    <script
+      type="module"
+      src="/component/slider product coats/swiper-bundle.min.js"
+    ></script>
+    <script type="module" src="/component/setTime/setTime.js"></script>
+    <script
+      type="module"
+      src="/component/slider product coats/script.js"
+    ></script>
+    <script
+      type="module"
+      src="/component/slider all product/sliderAllProduct.js"
+      defer
+    ></script>
+    <script src="/component/slider-brand/swiper-bundle.min.js"></script>
+    <script src="/component/slider new products/slidernewproducts.js"></script>
+    <script src="/component/slider-brand/script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+login .Html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="icon" href="img/img-home/images.png" />
+    <link rel="stylesheet" href="./component/login/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./botstrapMinCss/bootstrap.rtl.min.css" />
+  </head>
+  <body>
+    <!-- Site loader-->
+    <div class="loader">
+      <span class="loader2"></span>
+    </div>
+    <!-- login  -->
+    <div class="wrapper">
+      <header>Account</header>
+      <form action="#">
+        <div class="field email">
+          <div class="input-area">
+            <input type="text" placeholder="Enter your email" />
+            <i class="icon fas fa-envelope"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">
+            Please do not leave this field blank
+          </div>
+        </div>
+        <div class="field password">
+          <div class="input-area">
+            <input type="password" placeholder="Enter your password" />
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div id="password-error" class="error error-txt">
+            You have not entered your password
+          </div>
+        </div>
+        <div class="pass-txt"><a>Forgot your password?</a></div>
+        <input id="submit" type="submit" value="Login" />
+      </form>
+      <div class="sign-txt">
+        Don't have an account?<a id="newacant">Create an account</a>
+      </div>
+      <div class="sign-txt">
+        Are you the site administrator?<a id="Login_to_management">enter</a>
+      </div>
+      <div class="sign-txt" id="parent_baktohome">
+        <a id="bakToHome"
+          ><i class="fa fa-home" aria-hidden="true"></i>back to home</a
+        >
+      </div>
+    </div>
+    <!-- Create an account-->
+    <div class="wrapper" id="wrapper-newacant">
+      <header>Create an account</header>
+      <form action="#" id="forms">
+        <div class="field email" id="name_form">
+          <div class="input-area">
+            <input type="text" placeholder="first name and last name" />
+            <div class="icon_name">
+              <i class="fa fa-user-circle person fa-5x"></i>
+            </div>
+            <i
+              class="error error-icon fas fa-exclamation-circle"
+              id="icon_error_name"
+            ></i>
+          </div>
+          <div class="error error-txt" id="error-txt3">
+            Please enter your first or last name
+          </div>
+        </div>
+
+        <div class="field email" id="emails">
+          <div class="input-area">
+            <input type="text" placeholder="Enter your email" />
+            <i class="icon fas fa-envelope"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt" id="error-txt2">
+            Please do not leave this field blank
+          </div>
+        </div>
+        <div class="field password" id="passwords">
+          <div class="input-area">
+            <input type="password" placeholder="Enter your password" />
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div id="password-error2" class="error error-txt">
+            You have not entered your password
+          </div>
+        </div>
+        <div class="field password" id="password-new">
+          <div class="input-area" id="newPassword">
+            <input
+              id="password2"
+              type="password"
+              placeholder="Please re-enter your password"
+            />
+            <i class="icon fas fa-lock"></i>
+            <i
+              id="icon-error"
+              class="error error-icon fas fa-exclamation-circle"
+            ></i>
+          </div>
+          <div id="password-error3" class="error error-txt">
+            You have not entered your password
+          </div>
+        </div>
+
+        <input class="submit" type="submit" value="Creation" />
+      </form>
+      <div class="sign-txt">
+        Do you have an account?<a id="accantme">enter</a>
+      </div>
+    </div>
+    <!--Login to manage the website-->
+    <div class="wrapper" id="wrapper_Management">
+      <header>site management</header>
+      <form action="#" class="form_Management">
+        <div class="field email" id="email_Management">
+          <div class="input-area">
+            <input type="text" placeholder="Enter your username" />
+            <div class="icon_name">
+              <i class="fa fa-user-circle person fa-5x"></i>
+            </div>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Enter your national code</div>
+        </div>
+        <div class="field password">
+          <div class="input-area">
+            <input type="password" placeholder="Enter your password" />
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div id="password-error" class="error error-txt">
+            You have not entered your password
+          </div>
+        </div>
+        <input id="submit" type="submit" value="Login to the panel" />
+      </form>
+      <div class="sign-txt">
+        Not a manager or admin?<a id="comback_to_login">coming back</a>
+      </div>
+    </div>
+
+    <!--In case of user login-->
+    <div class="contener__login">
+      <div class="row" id="InSmallMode">
+        <div class="col-6" id="border-profil">
+          <div class="row">
+            <div class="col-6">
+              <p class="name-profile">first name and last name</p>
+              <p class="name-value">-</p>
+            </div>
+            <div class="col-6">
+              <img
+                data-bs-toggle="modal"
+                data-bs-target="#Modal-name"
+                class="icon-profile"
+                src="icon/pencil-square.svg"
+                title="Editing"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="col-6 border-amode" id="border-profil">
+          <div class="row">
+            <div class="col-6">
+              <p class="name-profile">National Code</p>
+              <p class="name-value" id="codMele__value">-</p>
+            </div>
+            <div class="col-6">
+              <img
+                data-bs-toggle="modal"
+                data-bs-target="#modal-codMale"
+                class="icon-profile"
+                src="icon/pencil-square.svg"
+                title="Editing"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="row" id="InSmallMode">
+        <div class="col-6" id="border-profil">
+          <div class="row">
+            <div class="col-6">
+              <p class="name-profile">phone number</p>
+              <p class="name-value" id="telefon__value">-</p>
+            </div>
+            <div class="col-6">
+              <img
+                data-bs-toggle="modal"
+                data-bs-target="#modal-telefon"
+                class="icon-profile"
+                src="icon/pencil-square.svg"
+                title="Editing"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="col-6 border-amode" id="border-profil">
+          <div class="row">
+            <div class="col-6">
+              <p class="name-profile">email</p>
+              <p class="name-value" id="email-value">-</p>
+            </div>
+            <div class="col-6">
+              <img
+                data-bs-toggle="modal"
+                data-bs-target="#modal-email"
+                class="icon-profile"
+                src="icon/pencil-square.svg"
+                title="Editing"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="row" id="InSmallMode">
+        <div class="col-6" id="border-profil">
+          <div class="row">
+            <div class="col-6">
+              <p class="name-profile">Password</p>
+              <p class="name-value" id="pasword__value">-</p>
+            </div>
+            <div class="col-6">
+              <img
+                data-bs-toggle="modal"
+                data-bs-target="#modal-pasword"
+                class="icon-profile"
+                src="icon/pencil-square.svg"
+                title="Editing"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="col-6 border-amode" id="border-profil">
+          <div class="row">
+            <div class="col-6">
+              <p class="name-profile">gender</p>
+              <p class="name-value" id="janseyt_value">-</p>
+            </div>
+            <div class="col-6">
+              <img
+                data-bs-toggle="modal"
+                data-bs-target="#modal-janseyt"
+                class="icon-profile"
+                src="icon/pencil-square.svg"
+                title="Editing"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="row" id="InSmallMode">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-6">
+              <p class="name-profile">City</p>
+              <p class="name-value" id="sher_value">-</p>
+            </div>
+            <div class="col-6">
+              <img
+                data-bs-toggle="modal"
+                data-bs-target="#modal-sher"
+                class="icon-profile"
+                src="icon/pencil-square.svg"
+                title="Editing"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="col-6">
+          <div class="row">
+            <div class="col-6 border-amode">
+              <p class="name-profile">Date of birth</p>
+              <p class="name-value" id="tareghTvalod_value">-</p>
+            </div>
+            <div class="col-6">
+              <img
+                data-bs-toggle="modal"
+                data-bs-target="#modal-taregh-tvalod"
+                class="icon-profile"
+                src="icon/pencil-square.svg"
+                title="Editing"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ExitIsAccant">
+        <img src="icon/box-arrow-right.svg" />
+        <p class="Exit-text">Sign out of your account</p>
+      </div>
+    </div>
+    <!-- modal is name -->
+    <div class="modal" id="Modal-name">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Please enter your first and last name</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>name</p>
+            <input type="text" class="name" />
+            <p id="name_erroe"></p>
+            <p>last name</p>
+            <input type="text" class="famile" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="save__name__famile">
+              Save information
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal codMele -->
+    <div class="modal" id="modal-codMale">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Please enter your national code</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>national code</p>
+            <input type="text" class="codMele" />
+            <div class="modal-footer">
+              <button
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="save__codmle"
+              >
+                Save information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal is telefon -->
+    <div class="modal" id="modal-telefon">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Please enter your mobile number</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>phone number</p>
+            <input type="text" class="telefon" />
+            <div class="modal-footer">
+              <button
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="save__telefon"
+              >
+                Save information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modla email -->
+    <div class="modal" id="modal-email">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">please enter your Email</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>email</p>
+            <input type="text" class="email__getValue" />
+            <p class="error_newEmail"></p>
+            <div class="modal-footer">
+              <button type="button" class="save__email">
+                Save information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal pasword -->
+    <div class="modal" id="modal-pasword">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Please enter your password</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>First enter the previous password</p>
+            <input type="password" class="password-previous" />
+            <p class="error_pasword_previous"></p>
+            <p>Enter the new password</p>
+            <input type="password" class="new__pasword" />
+            <p class="error__new__pasword"></p>
+            <div class="modal-footer">
+              <button type="button" class="save__password">
+                Save information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal janseyt -->
+    <div class="modal" id="modal-janseyt">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Please enter your gender</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>gender</p>
+            <input type="text" class="janseyt__value" />
+            <div class="modal-footer">
+              <button
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="save__janseyt"
+              >
+                Save information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal sher -->
+    <div class="modal" id="modal-sher">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Please enter your city</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>City</p>
+            <input type="text" class="sher__value" />
+            <div class="modal-footer">
+              <button
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="save__sher"
+              >
+                Save information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal taregh tvalod -->
+    <div class="modal" id="modal-taregh-tvalod">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Please enter your date of birth</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Date of birth</p>
+            <input type="text" class="taregh__tvalod__value" />
+            <div class="modal-footer">
+              <button
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                class="save__taregh__tvalod"
+              >
+                Save information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--If you enter the management panel-->
+    <section class="control_panel">
+      <div class="wrapper_Management">
+        <header>control panel</header>
+        <form>
+          <h5>Add product</h5>
+          <div class="form_save_product">
+            <div class="input_mosolat">
+              <input
+                class="input_price"
+                type="number"
+                placeholder="Enter the price of the product"
+                max="9900000"
+              />
+              <p class="error_input_price"></p>
+            </div>
+            <label>
+              <input
+                list="browsers"
+                name="myBrowser"
+                placeholder="Product selection"
+                class="input_product"
+              />
+              <p class="error_input_product"></p>
+            </label>
+            <datalist id="browsers">
+              <option value="Men ankle boots"></option>
+              <option value="Women's shoes"></option>
+              <option value="Men's Shirts"></option>
+              <option value="pants"></option>
+              <option value="T-Shirt"></option>
+              <option value="Mens Watches"></option>
+              <option value="Women's Coats"></option>
+              <option value="Scarf"></option>
+            </datalist>
+            <img id="img_local" src="" />
+            <div>
+              <input
+                type="file"
+                accept="image/*"
+                name="image"
+                id="file"
+                onchange="loadFile(event)"
+                style="display: none"
+              />
+              <label for="file" style="cursor: pointer"
+                ><h6 class="img_loding">
+                  <i
+                    class="fa fa-picture-o"
+                    aria-hidden="true"
+                    id="icon_img"
+                  ></i> Click to upload product photo
+                  </h6
+              ></label>
+              <img id="output" width="200" />
+            </div>
+            <div class="btn_save_product">
+              <input id="submit" type="submit" value=" Save information  " />
+            </div>
+          </div>
+          <h5>Remove the product</h5>
+          <input
+            class="input_id_product"
+            type="text"
+            placeholder="Enter the product ID"
+          />
+          <p class="error_input_id"></p>
+          <input
+            class="btn_delet_ptoduct"
+            id="submit"
+            type="submit"
+            value="Remove the product"
+          />
+
+          <span class="icon_BacktoHome">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            go home
+          </span>
+          <span class="icon_Exit">
+            <i class="fa fa-reply" aria-hidden="true"></i>
+            Exit the admin panel
+          </span>
+        </form>
+      </div>
+    </section>
+
+    <script src="/bootstrapMinJs/bootstrap.min.js"></script>
+    <script src="./component/login/script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+Product information.Html 
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title onload="name_title()"></title>
+    <link rel="icon" href="img/img-home/images.png" />
+    <link href="/botstrapMinCss/bootstrap.rtl.min.css" rel="stylesheet" />
+    <script src="/bootstrapMinJs/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="/component/porductInformation/porductInformation.css"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--Site loader-->
+    <div class="loader">
+      <span class="loader2"></span>
+    </div>
+    <nav id="navbar"></nav>
+    <div class="content">
+      <div id="nmaysmohsol" class="text-center mt-5"></div>
+      <div id="apendproductinsm"></div>
+
+      <!-- Product display-->
+      <div id="nmaysmohsol2" class="mt-5 mb-5"></div>
+
+      <!-- modal klick in icon sop -->
+      <div class="modal-sap-content"></div>
+
+      <!-- The product message has been added to the cart-->
+      <section class="modal-product">
+        <div class="modal_productPusToCart d-flex">
+          <h6 class="masege-pro">The product has been added to the cart</h6>
+
+          <svg
+            class="checkmark_product"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 52 52"
+          >
+            <circle
+              class="checkmark__circle_product"
+              cx="26"
+              cy="26"
+              r="25"
+              fill="none"
+            />
+            <path
+              class="checkmark__check_product"
+              fill="none"
+              d="M14.1 27.2l7.1 7.2 16.7-16.8"
+            />
+          </svg>
+        </div>
+        <hr class="hr-modalpro">
+        <div class="proininformashn row">
+          <div class="col-5">
+            <img src="" alt="" />
+          </div>
+          <div class="col-7">
+            <h6></h6>
+            <div class="product_id_price d-flex">
+              <p class="idproduct_savetocart"></p>
+              <p class="priceProduct_savetocart"></p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <a href="./cart.html"><button class="btn-gettocart">Go to shopping cart</button></a>
+      </section>
+      <!-- User comments -->
+      <section class="contener_comments">
+        <div>
+          <h6>User comments</h6>
+          <hr />
+        </div>
+        <div class="bus_comments">
+          <h6>No comments have been sent yet!</h6>
+          <h6>Be the first to share your opinion with us</h6>
+        </div>
+      </section>
+      <!--  Submit a comment -->
+      <section class="contener_submit_comment mt-5">
+        <div>
+          <h6>Share your opinion</h6>
+        </div>
+        <hr />
+        <div class="contener_submit_comment_discrpshn mt-4">
+          <textarea
+            id="w3review"
+            name="w3review"
+            rows="4"
+            cols="50"
+            id="input_Description"
+            placeholder="Describe your point of view..."
+          ></textarea>
+        </div>
+        <div class="contener_submit_btn">
+          <button class="btn_didgah" id="error">Submit a comment</button>
+        </div>
+      </section>
+    </div>
+    <footer></footer>
+    <script type="module" src="/js/app.js"></script>
+    <script
+      type="module"
+      src="/component/porductInformation/porductInformation.js"
+    ></script>
+  </body>
+</html>
+
+
+
+
+store .HTML 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>store</title>
+    <link rel="icon" href="img/img-home/images.png" />
+    <link rel="stylesheet" href="/component/store/store.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link href="/botstrapMinCss/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Site loader-->
+    <div class="loader">
+      <span class="loader2"></span>
+    </div>
+    <nav id="navbar"></nav>
+
+    <div class="content">
+      <div class="mt-4">
+        <section class="d-none d-lg-block" id="product-text_brand">
+          <div id="skla" class="row text-center">
+            <p class="col-2">Respectively:</p>
+            <a id="colortext" class="col-2 navbar-brand">the newest</a>
+            <a id="colortext" class="col-2 navbar-brand">cheapest</a>
+            <a id="colortext" class="col-2 navbar-brand">most expensive </a>
+            <a id="colortext" class="col-2 navbar-brand">Most Popular</a>
+            <a id="colortext" class="col-2 navbar-brand">Top score</a>
+          </div>
+        </section>
+      </div>
+
+      <div class="row">
+        <div class="col-2 mt-2 d-none d-lg-block">
+          <div id="border">
+            <p class="text-center mt-3">Grouping</p>
+            <hr />
+            <div id="input-checkbox">
+              <p id="te2" class="navbar-brand mt-3">
+                <input
+                  id="input-checkbox"
+                  class="me-1"
+                  type="checkbox"
+                  name="D"
+                  value="false"
+                />
+                Shirt
+              </p>
+              <p id="te2" class="navbar-brand">
+                <input
+                  id="input-checkbox"
+                  class="me-1"
+                  type="checkbox"
+                  name="H"
+                  value="false"
+                />T-shirt
+              </p>
+              <p id="te2" class="navbar-brand">
+                <input
+                  id="input-checkbox"
+                  class="me-1"
+                  type="checkbox"
+                  name="E"
+                  value="false"
+                />
+                Men's watch
+              </p>
+              <p id="te2" class="navbar-brand">
+                <input
+                  id="input-checkbox"
+                  class="me-1"
+                  type="checkbox"
+                  name="G"
+                  value="false"
+                />
+                Pants
+              </p>
+              <p id="te2" class="navbar-brand">
+                <input
+                  id="input-checkbox"
+                  class="me-1"
+                  type="checkbox"
+                  name="A"
+                  value="false"
+                />men's shoes
+              </p>
+              <p id="te2" class="navbar-brand">
+                <input
+                  id="input-checkbox"
+                  class="me-1"
+                  type="checkbox"
+                  name="C"
+                  value="false"
+                />Women's coats
+              </p>
+              <p id="te2" class="navbar-brand">
+                <input
+                  id="input-checkbox"
+                  class="me-1"
+                  type="checkbox"
+                  name="F"
+                  value="false"
+                />
+                Scarf
+              </p>
+              <p id="te2" class="navbar-brand">
+                <input
+                  id="input-checkbox"
+                  class="me-1"
+                  type="checkbox"
+                  name="B"
+                  value="false"
+                />Women's shoes
+              </p>
+            </div>
+          </div>
+          <div class="mt-3">
+            <div class="main" dir="ltr">
+              <p class="mt-3 text-center">Price range</p>
+              <hr />
+              <div class="price-input-container">
+                <div class="price-input">
+                  <div class="price-field">
+                    <span>Manimum</span>
+                    <input type="number" class="min-input" value="10" />
+                  </div>
+                  <div class="price-field">
+                    <span>Maximum</span>
+                    <input type="number" class="max-input" value="10000" />
+                  </div>
+                </div>
+                <div class="slider-container">
+                  <div class="price-slider"></div>
+                </div>
+              </div>
+              <!-- Slider -->
+              <div class="range-input mb-4">
+                <input
+                  type="range"
+                  class="min-range"
+                  min=""
+                  max="9000"
+                  value="200"
+                  step="1"
+                />
+                <input
+                  type="range"
+                  class="max-range"
+                  min=""
+                  max="10000"
+                  value="1000"
+                  step="1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div id="border2" class="mt-3"></div>
+        </div>
+
+        <div class="col-10" id="product">
+          <div id="imgme" class="container row"></div>
+        </div>
+        <!-- Next products hot page button-->
+        <span class="pagenumbers" id="btnpage" dir="ltr"></span>
+      </div>
+
+      <!-- modal klick in icon sop -->
+      <div class="modal-sap-content"></div>
+      <!-- modal is filter product -->
+      <div class="modal" id="modal-filter">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Filter products</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="filter-modal">
+                <div class="mt-3">
+                  <div class="main" dir="ltr">
+                    <p class="mt-3 text-center">Price range</p>
+                    <hr />
+                    <div class="price-input-container">
+                      <div class="price-input2">
+                        <div class="price-field">
+                          <span>Manimum</span>
+                          <input
+                            type="number"
+                            class="min-input"
+                            value="100"
+                          />
+                        </div>
+                        <div class="price-field">
+                          <span>Maximum</span>
+                          <input
+                            type="number"
+                            class="max-input"
+                            value="10000"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider-container2">
+                        <div class="price-slider"></div>
+                      </div>
+                    </div>
+                    <!-- Slider -->
+                    <div class="range-input2 mb-4">
+                      <input
+                        type="range"
+                        class="min-range"
+                        min=""
+                        max="9000"
+                        value="200"
+                        step="1"
+                      />
+                      <input
+                        type="range"
+                        class="max-range"
+                        min=""
+                        max="10000"
+                        value="1000"
+                        step="1"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      class="filterButton fixed-bottom"
+      data-bs-toggle="modal"
+      data-bs-target="#modal-filter"
+    >
+      Filter products
+    </button>
+    <footer class="d-none d-lg-block"></footer>
+
+    <script src="/bootstrapMinJs/bootstrap.min.js"></script>
+    <script type="module" src="/js/app.js"></script>
+    <script type="module" src="/component/store/store.js"></script>
+  </body>
+</html>
+
+
+
+
+
